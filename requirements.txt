@@ -1,0 +1,26 @@
+# Python 3.10. Pinned to the versions the reported results were produced with.
+torch==2.4.1
+numpy==1.25.2
+pandas==1.5.3
+scikit-learn==1.7.2
+scipy==1.14.1
+tqdm==4.66.5
+tabulate==0.9.0
+joblib
+pyyaml
+
+# reading the raw dataset files
+xlrd==2.0.1            # Credit default (.xls)
+openpyxl==3.0.10
+kaggle==1.6.14         # Lending Club only
+
+# baselines
+raiutils==0.4.2        # DiCE
+nflows==0.14           # DiCoFlex
+tensorflow==2.17.0     # imported by CARLA (Wachter, REVISE, CCHVAE)
+lime==0.2.0.1
+mip==1.12.0
+recourse==1.0.0
+xgboost==1.4.2
+causalgraphicalmodels==0.0.4
+protobuf==3.20.3

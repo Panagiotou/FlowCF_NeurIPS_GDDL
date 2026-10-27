@@ -1,0 +1,36 @@
+{
+    "name": "magic",
+    "task_type": "binclass",
+    "download_url": "https://archive.ics.uci.edu/static/public/159/magic+gamma+telescope.zip",
+    "raw_file": "magic04.data",
+    "raw_columns": ["fLength", "fWidth", "fSize", "fConc", "fConc1",
+    "fAsym", "fM3Long", "fM3Trans", "fAlpha", "fDist", "class"],
+    "label_map": {"g": 1, "h": 0},
+    "header": 0,
+    "column_names": ["fLength", "fWidth", "fSize", "fConc", "fConc1",
+    "fAsym", "fM3Long", "fM3Trans", "fAlpha", "fDist", "class"],
+    "ignore_columns": [],
+    "target_col": "class",
+    "file_type": "csv",
+    "data_path": "data/magic/magic.csv",
+    "test_path": "",
+    "column_info": {
+        "fLength": "float",
+        "fWidth": "float",
+        "fSize": "float",
+        "fConc": "float",
+        "fConc1": "float",
+        "fAsym": "float",
+        "fM3Long": "float",
+        "fM3Trans": "float",
+        "fAlpha": "float",
+        "fDist": "float",
+        "class": "str"
+    },
+    "preprocess_columns": {
+    },
+    "samples_keep": 100000,
+    "train_test_split": 0.5,
+    "train_num": 0,
+    "test_num": 0
+}

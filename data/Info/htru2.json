@@ -1,0 +1,33 @@
+{
+    "name": "htru2",
+    "task_type": "binclass",
+    "download_url": "https://archive.ics.uci.edu/static/public/372/htru2.zip",
+    "raw_file": "HTRU_2.csv",
+    "raw_columns": ["profile_mean", "profile_stdev", "profile_kurtosis", "profile_skewness",
+    "dm_snr_mean", "dm_snr_stdev", "dm_snr_kurtosis", "dm_snr_skewness", "class"],
+    "header": 0,
+    "column_names": ["profile_mean", "profile_stdev", "profile_kurtosis", "profile_skewness",
+    "dm_snr_mean", "dm_snr_stdev", "dm_snr_kurtosis", "dm_snr_skewness", "class"],
+    "ignore_columns": [],
+    "target_col": "class",
+    "file_type": "csv",
+    "data_path": "data/htru2/htru2.csv",
+    "test_path": "",
+    "column_info": {
+        "profile_mean": "float",
+        "profile_stdev": "float",
+        "profile_kurtosis": "float",
+        "profile_skewness": "float",
+        "dm_snr_mean": "float",
+        "dm_snr_stdev": "float",
+        "dm_snr_kurtosis": "float",
+        "dm_snr_skewness": "float",
+        "class": "str"
+    },
+    "preprocess_columns": {
+    },
+    "samples_keep": 100000,
+    "train_test_split": 0.5,
+    "train_num": 0,
+    "test_num": 0
+}
